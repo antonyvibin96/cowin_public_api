@@ -1,0 +1,28 @@
+{
+  "name": "cowinapi",
+  "version": "1.0.0",
+  "description": "utilizing public api for covid 19",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antonyvibin96/cowin_public_api.git"
+  },
+  "keywords": [
+    "cowin",
+    "api"
+  ],
+  "author": "antony vibin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.5.0",
+    "nodemon": "^2.0.7"
+  }
+}
